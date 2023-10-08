@@ -35,6 +35,8 @@ public:
     }
 };
 
+int i;
+
 DataLog::DataLog()
 {
     /*
@@ -42,6 +44,7 @@ DataLog::DataLog()
      */
     logList.push_back(0);
     currentState = logList.begin();
+    i = 0;
 }
 
 DataLog::DataLog(const int &data)
@@ -51,6 +54,7 @@ DataLog::DataLog(const int &data)
      */
     logList.push_back(data);
     currentState = logList.begin();
+    i = 0;
 }
 
 void DataLog::addCurrentState(int number)
@@ -76,12 +80,14 @@ void DataLog::save()
      *       and move the currentState Iterator to this new state. If there are other states behind the
      *       currentState Iterator, we delete them all before creating a new state.
      */
-    for(auto i = logList.back(); i != *currentState; i--)
+    int size = (int)logList.size();
+    for(int j = i; j < size - 1;j++)
     {
         logList.pop_back();
     }
     logList.push_back(*currentState);
     currentState++;
+    i++;
 }
 
 void DataLog::undo()
@@ -92,6 +98,7 @@ void DataLog::undo()
      */
     if (currentState != logList.begin()) {
         currentState--;
+        i--;
     }
 }
 
@@ -101,9 +108,10 @@ void DataLog::redo()
      * TODO: Switch to the latter state of the data
      *       If this is the latest state in the log, nothing changes
      */
-    auto temp = currentState;
-    if (++currentState == logList.end()) {
-        currentState = temp;
+    int size = (int)logList.size();
+    if (i < size - 1) {
+        currentState++;
+        i++;
     }
 }
 
@@ -122,5 +130,4 @@ int main() {
     cout << "\n";
     log.redo();
     log.printLog();
-    return 0;
 }

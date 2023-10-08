@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/DSA/TH/DoubleLL/Ex4/cmake-build-debug"
+			"value" : "d:/DSA/TH/DSA_TH/DoubleLL/Ex5/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/DSA/TH/DoubleLL/Ex4/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/DSA/TH/DSA_TH/DoubleLL/Ex5/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/DSA/TH/DoubleLL/Ex4"
+			"value" : "D:/DSA/TH/DSA_TH/DoubleLL/Ex5"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Ex4"
+			"value" : "C:/Program Files (x86)/Ex5"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Ex4"
+			"value" : "Ex5"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1254,7 +1254,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Ex4_BINARY_DIR",
+			"name" : "Ex5_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1263,10 +1263,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/DSA/TH/DoubleLL/Ex4/cmake-build-debug"
+			"value" : "D:/DSA/TH/DSA_TH/DoubleLL/Ex5/cmake-build-debug"
 		},
 		{
-			"name" : "Ex4_IS_TOP_LEVEL",
+			"name" : "Ex5_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1278,7 +1278,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Ex4_SOURCE_DIR",
+			"name" : "Ex5_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1287,7 +1287,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/DSA/TH/DoubleLL/Ex4"
+			"value" : "D:/DSA/TH/DSA_TH/DoubleLL/Ex5"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
