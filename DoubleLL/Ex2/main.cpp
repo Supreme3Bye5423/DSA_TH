@@ -100,13 +100,13 @@ DLinkedList<T>::Iterator::Iterator(DLinkedList<T> *pList, bool begin)
     {
         if(pList != NULL)
         {
-            index = -1;
-            current = NULL;
+            index = 0;
+            current = pList->head;
         }
         else
         {
-            index = 0;
-            current = pList->head;
+            index = -1;
+            current = NULL;
         }
     }
     else
@@ -136,7 +136,7 @@ void DLinkedList<T>::Iterator::set(const T &e)
 template<class T>
 T& DLinkedList<T>::Iterator::operator*()
 {
-    if(current == NULL)throw out_of_range("Segmentation fault!");
+    //if(current == NULL)throw out_of_range("Segmentation fault!");
     return current->data;
 }
 
@@ -189,12 +189,12 @@ typename DLinkedList<T>::Iterator& DLinkedList<T>::Iterator::operator++()
 template<class T>
 typename DLinkedList<T>::Iterator DLinkedList<T>::Iterator::operator++(int)
 {
+    if(index == pList->count)throw out_of_range("Segmentation fault!");
     Iterator temp = *this;
     if (index == - 1) {
         current = pList->head;
         index = 0;
     }
-    else if(index == pList->count)throw out_of_range("Segmentation fault!");
     else
     {
         current = current->next;
