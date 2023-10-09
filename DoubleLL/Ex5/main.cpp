@@ -12,67 +12,50 @@ struct ListNode {
 ListNode* reverse(ListNode* head, int a, int b) {
     //TODO:
     if (a==b)return head;
-    ListNode*aNode;
-    ListNode*bNode;
     int i = 1;
     ListNode*run = head;
+    stack<ListNode*>stack;
+    ListNode*first;
+    ListNode*last;
+    ListNode*front;
+    ListNode*back;
     while(run != nullptr)
     {
-        if(i == a)
-        {
-            aNode = run;
+        if (i == a){
+            front = run->left;
+            first = run;
         }
-        else if (i == b)
-        {
-            bNode = run;
+        if (i == b){
+            back = run->right;
+            last = run;
+            break;
         }
-        run = run->right;
         i++;
+        run = run->right;
     }
-    if (a == 1 && b == i - 1)
+    if (front != nullptr) front->right = nullptr;
+    if (back != nullptr) back->left = nullptr;
+    run = first;
+    ListNode*temp,*stop = last->right;
+    while(run != stop)
     {
-        ListNode*Ra = aNode->right,*Lb = bNode->left;
-        Ra->left = bNode;
-        Lb->right = aNode;
-        aNode->right = nullptr;aNode->left = Lb;
-        bNode->right = Ra; bNode->left = nullptr;
-        head = bNode;
+        temp = run;
+        run = run->right;
+        temp->right = temp->left = nullptr;
+        stack.push(temp);
     }
-    else
+    run = front;
+    for(i = a; i <= b;i++)
     {
-        if (a != 1 && b != i - 1)
-        {
-            ListNode*temp;
-            temp = aNode->right;
-            aNode->right = bNode->right;
-            bNode->right = temp;
-            if(aNode->right != nullptr)aNode->right->left = aNode;
-            if(bNode->right != nullptr)bNode->right->left = bNode;
-
-            temp = aNode->left;
-            aNode->left = bNode->left;
-            bNode->left = temp;
-            if(aNode->left != nullptr)aNode->left->right = aNode;
-            if(bNode->left != nullptr)bNode->left->right = bNode;
-        }
-        else if (a == 1)
-        {
-            ListNode*Ra = aNode->right, *Rb = bNode->right, *Lb = bNode->left;
-            Ra->left = bNode;
-            Lb->right = Rb->left = aNode;
-            aNode->right = Rb;aNode->left = Lb;
-            bNode->right = Ra; bNode->left = nullptr;
-            head = bNode;
-        }
-        else if (b == i - 1)
-        {
-            ListNode*Ra = aNode->right, *La = aNode->left,*Lb = bNode->left;
-            La->right = Ra->left = bNode;
-            Lb->right = aNode;
-            aNode->right = nullptr;aNode->left = Lb;
-            bNode->right = Ra; bNode->left = La;
-        }
+        temp = stack.top();
+        stack.pop();
+        if (run != nullptr)run->right = temp;
+        temp->left = run;
+        if (run != nullptr)run = run->right;
+        else run = temp, head = run;
     }
+    run->right = back;
+    if (back != nullptr)back->left = run;
     return head;
 }
 
@@ -104,7 +87,7 @@ void printList(ListNode*print)
 
 void freeMem(ListNode*head)
 {
-    head = nullptr;
+    delete head;
 }
 
 int main() {
