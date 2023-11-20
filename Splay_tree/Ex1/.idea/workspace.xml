@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Ex1" targetName="Ex1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87025a2d-526d-4c6d-b8ea-f546ee0f194f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AVL/Ex5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AVL/Ex5/.idea/Ex5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AVL/Ex5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AVL/Ex5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AVL/Ex5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AVL/Ex5/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AVL/Ex5/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Queue/Ex1/.idea/Ex1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Queue/Ex3/.idea/Ex3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Queue/Ex5/.idea/Ex5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Sort/Ex1/.idea/Ex1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Sort/Ex2/.idea/Ex2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stack/.idea/Stack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stack/Ex4/.idea/Ex4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Stack/Ex5/.idea/Ex5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f3b3fcbe781d2a109755.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-9c3d3dca57bf1e727f6a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-08816d2e919e815a793a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-17T02-46-51-0848.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/Ex4.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/Ex4.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/Ex4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/Ex4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AVL/Ex4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../AVL/Ex4/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Stack/Ex3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Stack/Ex3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.2" />
+  </component>
+  <component name="ProjectId" id="2YRc8UBZXKhKEb44N7EmM6tlQ3V" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/DSA/TH/DSA_TH/Splay_tree/Ex1/main.cpp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Ex1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Ex1" TARGET_NAME="Ex1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Ex1" RUN_TARGET_NAME="Ex1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87025a2d-526d-4c6d-b8ea-f546ee0f194f" name="Changes" comment="" />
+      <created>1700491672419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700491672419</updated>
+      <workItem from="1700491673908" duration="3711000" />
+      <workItem from="1700495475805" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+</project>
