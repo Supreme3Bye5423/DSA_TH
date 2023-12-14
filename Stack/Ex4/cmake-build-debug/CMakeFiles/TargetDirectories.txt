@@ -1,0 +1,3 @@
+D:/DSA/TH/DSA_TH/Stack/Ex4/cmake-build-debug/CMakeFiles/Ex4.dir
+D:/DSA/TH/DSA_TH/Stack/Ex4/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DSA/TH/DSA_TH/Stack/Ex4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

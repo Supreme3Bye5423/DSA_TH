@@ -1,0 +1,3 @@
+D:/DSA/TH/DSA_TH/Queue/Ex3/cmake-build-debug/CMakeFiles/Ex3.dir
+D:/DSA/TH/DSA_TH/Queue/Ex3/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DSA/TH/DSA_TH/Queue/Ex3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -179,22 +179,16 @@ public:
                 }
             }
             else {
-                Node *rightsucc = root->pRight;
-                while (rightsucc->pLeft) {
-                    rightsucc = rightsucc->pLeft;
+                Node *leftsucc = root->pLeft;
+                while (leftsucc->pRight) {
+                    leftsucc = leftsucc->pRight;
                 }
-                root->data = rightsucc->data;
-                root->pRight = recursionDelete(root->pRight, rightsucc->data);
+                root->data = leftsucc->data;
+                root->pLeft = recursionDelete(root->pLeft, leftsucc->data);
             }
         }
         if(!root)return root;
         root->balance = BalanceValue(getBalance(root));
-        if(root->pRight){
-            root->pRight->balance = BalanceValue(getBalance(root->pRight));
-        }
-        if(root->pLeft){
-            root->pLeft->balance = BalanceValue(getBalance(root->pLeft));
-        }
         if(root->pLeft && root->balance > 1 && root->pLeft->balance >= 0){
             return rotateRight(root);
         }
@@ -233,12 +227,12 @@ public:
 
 int main() {
     AVLTree<int> avl;
-    int arr[] = {5,6,7,8,9,10,15,18,30,45,47,50,58,65};
+    int arr[] = {10,52,98,32,68,92,40,13,42,63,99,100};
     for (int i = 0; i < sizeof(arr)/4; i++)
     {
         avl.insert(arr[i]);
     }
     avl.printTreeStructure();
-    avl.remove(10);
+    avl.remove(52);
     avl.printTreeStructure();
 }
